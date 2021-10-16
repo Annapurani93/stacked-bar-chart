@@ -42,6 +42,6 @@ fishery production is the volume of wild fish catches landed for all commercial,
         plot.subtitle = element_text(colour = "white",size=11,hjust=0.5),
         plot.caption = element_text(colour = "white",size=8))->p
 
-ggsave("stackbar.pdf",p,width =12,height=8)
+ggsave("stackbar.png",p,width =12,height=8)
 
 
